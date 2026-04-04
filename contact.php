@@ -22,7 +22,7 @@
 
     if (mail($receiving_email_address, $subject, $email_content, $email_headers)) {
       http_response_code(200);
-      echo "OK"; // The JS script looks for "OK" to show the success message
+      echo "OK"; 
     } else {
       http_response_code(500);
       echo "Oops! Something went wrong and we couldn't send your message.";
