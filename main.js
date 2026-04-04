@@ -3,7 +3,7 @@
   "use strict";
 
   /**
-   * Apply .scrolled class to the body as the page is scrolled down
+   *Scrolled class
    */
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
@@ -145,17 +145,8 @@
 
   });
 
-
-
-   
-
-
-
-
-
-
   /**
-   * Correct scrolling position upon page load for URLs containing hash links.
+   * Ordered scrolling
    */
   window.addEventListener('load', function(e) {
     if (window.location.hash) {
@@ -173,7 +164,7 @@
   });
 
   /**
-   * Navmenu Scrollspy
+   * Navmenu Scrolls
    */
   let navmenulinks = document.querySelectorAll('.navmenu a');
 
